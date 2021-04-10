@@ -1,0 +1,22 @@
+.container {
+  &.outer {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @media only screen and (min-width: #{map-get($grid-breakpoints, 'lg')}) {
+      max-width: map-get($grid-breakpoints, 'lg') * 1.05;
+      padding: 0;
+    }
+  }
+  &.inner {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @media only screen and (min-width: #{map-get($grid-breakpoints, 'md')}) {
+      max-width: map-get($grid-breakpoints, 'md') * 0.78125;
+      padding: 0;
+    }
+  }
+}
+
+$offset-top: 100px;
