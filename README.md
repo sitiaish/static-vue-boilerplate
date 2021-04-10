@@ -1,4 +1,11 @@
-# scrollymapbxo
+# Static Vue Boilerplate 
+
+Contains Mapbox GL, Scrollama, D3 for easy coding - **requires own Mapbox API token**
+UI and styling with Vuetify
+Has Router for multiple static pages
+
+For full vh of router-view: calc(100vh - $offset-top);
+$offset-top: 100px; 
 
 ## Project setup
 ```
